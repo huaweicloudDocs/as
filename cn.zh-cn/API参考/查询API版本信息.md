@@ -1,8 +1,12 @@
-# 查询API版本信息<a name="zh-cn_topic_0133153746"></a>
+# 查询API版本信息<a name="as_06_1101"></a>
 
 ## 功能介绍<a name="section11355891"></a>
 
 查询弹性伸缩API所有版本信息。
+
+## 调试<a name="section948154693415"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=AS&api=GetApiInfo)中调试该接口。
 
 ## URI<a name="section35094160"></a>
 
@@ -40,7 +44,7 @@ GET /
     </thead>
     <tbody><tr id="row34736162"><td class="cellrowborder" valign="top" width="27%" headers="mcps1.2.4.1.1 "><p id="p1654215818362"><a name="p1654215818362"></a><a name="p1654215818362"></a>versions</p>
     </td>
-    <td class="cellrowborder" valign="top" width="18%" headers="mcps1.2.4.1.2 "><p id="p2257160"><a name="p2257160"></a><a name="p2257160"></a>Array</p>
+    <td class="cellrowborder" valign="top" width="18%" headers="mcps1.2.4.1.2 "><p id="p2257160"><a name="p2257160"></a><a name="p2257160"></a>Array of <a href="#table5036780310489">versions</a> objects</p>
     </td>
     <td class="cellrowborder" valign="top" width="55.00000000000001%" headers="mcps1.2.4.1.3 "><p id="p48612303"><a name="p48612303"></a><a name="p48612303"></a>描述弹性伸缩API版本信息列表。</p>
     </td>
@@ -68,7 +72,7 @@ GET /
     </tr>
     <tr id="r784e679e20ef42c7b5f0d9caebb3d506"><td class="cellrowborder" valign="top" width="26.75%" headers="mcps1.2.4.1.1 "><p id="af5650be6710143e49d288b78f41a9c9d"><a name="af5650be6710143e49d288b78f41a9c9d"></a><a name="af5650be6710143e49d288b78f41a9c9d"></a>links</p>
     </td>
-    <td class="cellrowborder" valign="top" width="18.3%" headers="mcps1.2.4.1.2 "><p id="aa41878c3fbc74f52be50c47e0dd26a46"><a name="aa41878c3fbc74f52be50c47e0dd26a46"></a><a name="aa41878c3fbc74f52be50c47e0dd26a46"></a>Array</p>
+    <td class="cellrowborder" valign="top" width="18.3%" headers="mcps1.2.4.1.2 "><p id="aa41878c3fbc74f52be50c47e0dd26a46"><a name="aa41878c3fbc74f52be50c47e0dd26a46"></a><a name="aa41878c3fbc74f52be50c47e0dd26a46"></a>Array of <a href="#t759e6d15d244474e8f286185ede143fb">links</a> objects</p>
     </td>
     <td class="cellrowborder" valign="top" width="54.949999999999996%" headers="mcps1.2.4.1.3 "><p id="a37d79d061a9f47c5beee1f98f4c4611b"><a name="a37d79d061a9f47c5beee1f98f4c4611b"></a><a name="a37d79d061a9f47c5beee1f98f4c4611b"></a>API 的url地址，详情请见<a href="#t759e6d15d244474e8f286185ede143fb">表3 links字段数据结构说明</a>。</p>
     </td>

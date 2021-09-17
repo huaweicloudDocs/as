@@ -1,8 +1,12 @@
-# 查询指定API版本信息<a name="zh-cn_topic_0133153747"></a>
+# 查询指定API版本信息<a name="as_06_1102"></a>
 
 ## 功能介绍<a name="section11355891"></a>
 
 查询弹性伸缩API指定版本信息。
+
+## 调试<a name="section948154693415"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=AS&api=QueryScalingActivityLogV2)中调试该接口。
 
 ## URI<a name="section35094160"></a>
 
@@ -65,7 +69,7 @@ GET /\{api\_version\}
     </thead>
     <tbody><tr id="row34736162"><td class="cellrowborder" valign="top" width="21.782178217821784%" headers="mcps1.2.4.1.1 "><p id="p1654215818362"><a name="p1654215818362"></a><a name="p1654215818362"></a>version</p>
     </td>
-    <td class="cellrowborder" valign="top" width="23.762376237623762%" headers="mcps1.2.4.1.2 "><p id="p77023552159"><a name="p77023552159"></a><a name="p77023552159"></a>Object</p>
+    <td class="cellrowborder" valign="top" width="23.762376237623762%" headers="mcps1.2.4.1.2 "><p id="p77023552159"><a name="p77023552159"></a><a name="p77023552159"></a><a href="#table786171513527">version</a> object</p>
     </td>
     <td class="cellrowborder" valign="top" width="54.45544554455446%" headers="mcps1.2.4.1.3 "><p id="p48612303"><a name="p48612303"></a><a name="p48612303"></a>描述弹性伸缩API指定版本信息。</p>
     </td>
@@ -93,7 +97,7 @@ GET /\{api\_version\}
     </tr>
     <tr id="row8887191525212"><td class="cellrowborder" valign="top" width="22%" headers="mcps1.2.4.1.1 "><p id="p9888151505213"><a name="p9888151505213"></a><a name="p9888151505213"></a>links</p>
     </td>
-    <td class="cellrowborder" valign="top" width="23%" headers="mcps1.2.4.1.2 "><p id="p1489112150526"><a name="p1489112150526"></a><a name="p1489112150526"></a>Array</p>
+    <td class="cellrowborder" valign="top" width="23%" headers="mcps1.2.4.1.2 "><p id="p1489112150526"><a name="p1489112150526"></a><a name="p1489112150526"></a>Array of <a href="#t759e6d15d244474e8f286185ede143fb">links</a> objects</p>
     </td>
     <td class="cellrowborder" valign="top" width="55.00000000000001%" headers="mcps1.2.4.1.3 "><p id="p1894161514527"><a name="p1894161514527"></a><a name="p1894161514527"></a>API 的url地址，详情请见<a href="#t759e6d15d244474e8f286185ede143fb">表4 links字段数据结构说明</a>。</p>
     </td>
